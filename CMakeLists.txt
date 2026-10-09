@@ -14,6 +14,5 @@ foreach(SOURCE_FILE ${SOURCES})
     get_filename_component(TARGET_NAME ${SOURCE_FILE} NAME_WE)
 
     # Define el ejecutable individual
-    add_executable(${TARGET_NAME} ${SOURCE_FILE}
-            practica1.c)
+    add_executable(${TARGET_NAME} ${SOURCE_FILE})
 endforeach()
